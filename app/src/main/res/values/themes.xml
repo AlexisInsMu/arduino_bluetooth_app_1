@@ -13,4 +13,18 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">
+            @color/gradient
+        </item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/app_transparent
+        </item>
+        <item name="windowSplashScreenAnimationDuration">
+            1000
+        </item>
+        <item name="postSplashScreenTheme">
+            @style/Theme.Bluetooth_project
+        </item>
+    </style>
 </resources>
